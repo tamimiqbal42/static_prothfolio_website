@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav>
+      <div class="left">
+        <a href="/">My Prothfolio</a>
+      </div>
+      <div class="right">
+        <a href="#">
+          <i class="fa-solid fa-dumbbell"></i>
+          <span>Skill</span>
+        </a>
+        <a href="#">
+          <i class="fa-solid fa-pen"></i>
+          <span>Project</span>
+        </a>
+        <a href="#">
+          <i class="fa-solid fa-address-book"></i>
+          <span>Contact</span>
+        </a>
+      </div>
+    </nav>
+    <main>
+      <!-- Hero section -->
+      <section class="hero-section">
+        <div class="text">
+          <h2>Hello, This is Tamim.</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad
+            asperiores, accusamus veniam quo molestias nemo rem. Lorem ipsum
+            dolor sit amet consectetur adipisicing elit. Excepturi dolorem,
+            debitis similique accusamus ipsum quasi? Lorem ipsum dolor sit, amet
+            consectetur adipisicing elit. Dolore cupiditate distinctio harum
+            tenetur aliquam possimus voluptatibus recusandae ex obcaecati non
+            saepe provident, porro id tempore adipisci! Distinctio accusamus
+            obcaecati odit.
+          </p>
+
+          <div class="links">
+            <a href="https://github.com/tamimiqbal42" target="_blank">
+              <i class="fa-brands fa-github"></i>
+              <span>GitHub</span>
+            </a>
+            <a
+              href="https://www.linkedin.com/in/eng-tamim-iqbal/"
+              target="_blank"
+            >
+              <i class="fa-brands fa-linkedin"></i>
+              <span>LinkedIn</span>
+            </a>
+            <a href="#" target="_blank">
+              <i class="fa-solid fa-envelope"></i>
+              <span>Email</span>
+            </a>
+          </div>
+        </div>
+
+        <div class="headshort">
+          <img src="images/IMG_20240228_003304_252.jpg" alt="heto headshort" />
+        </div>
+      </section>
+
+      <!-- Skill section -->
+      <section class="skill-section">
+        <h2>Skills</h2>
+        <div class="text">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto
+            eligendi aliquam harum veniam voluptatibus provident nostrum nam
+            illo sequi odit eum nesciunt, a laudantium aliquid est! Lorem ipsum,
+            dolor sit amet consectetur adipisicing elit. Pariatur, rem
+            voluptates debitis possimus molestias repellendus!
+          </p>
+        </div>
+
+        <div class="cells">
+          <div class="cell">
+            <img src="images/Html_icon.png" alt="html logo" />
+            <span>HTML</span>
+          </div>
+          <div class="cell">
+            <img src="images/css_icon.png" alt="css logo" />
+            <span>CSS</span>
+          </div>
+          <div class="cell">
+            <img src="images/javaScript_icon.png" alt="javascript logo" />
+            <span>JavaScript</span>
+          </div>
+          <div class="cell">
+            <img src="images/react_icon.jpg" alt="react logo" />
+            <span>ReactJs</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- Project section -->
+      <section class="projects">
+        <h2>My Projects</h2>
+        <div class="projects-container">
+          <!-- Project 1 -->
+          <div class="project-card">
+            <h3>Project One</h3>
+            <p>This is a description of Project One. It showcases my skills in HTML and CSS.</p>
+            <a href="https://github.com/tamimiqbal42/my_resume/blob/main/index.html" target="_blank" class="btn">Code</a>
+            <a href="" target="_blank" class="btn demo">Demo</a>
+          </div>
+          <!-- Project 2 -->
+          <div class="project-card">
+            <h3>Project Two</h3>
+            <p>This is a description of Project Two. It demonstrates Python row code usage.</p>
+            <a href="https://github.com/tamimiqbal42/contact_book_management" target="_blank" class="btn">Code</a>
+            <a href="" target="_blank" class="btn demo">Demo</a>
+          </div>
+          <!-- Project 3 -->
+          <div class="project-card">
+            <h3>Project Three</h3>
+            <p>This is a description of Project Three. It is a full-stack application.</p>
+            <a href="https://github.com/tamimiqbal42/simple-calclator/blob/master/main.py" target="_blank" class="btn">Code</a>
+            <a href="" target="_blank" class="btn demo">Demo</a>
+          </div>
+        </div>
+      </section>
+      
+      <!-- Contact section -->
+       <section class="contact">
+        <h2>Contact</h2>
+        <div class="group">
+            <div class="text">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dignissimos eligendi harum alias maxime cupiditate amet! Earum ex eius pariatur omnis dignissimos deserunt numquam est eveniet possimus alias, quis asperiores sequi perferendis consectetur, nulla, molestiae corporis explicabo.
+            </div>
+
+            <form>
+                <label for="name">Name</label>
+                <input type="text" id="name" placeholder="Type your name">
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="Your email">
+                <label for="message"></label>
+                <textarea name="message" id="massage" cold="30" rows="10"></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </div>           
+    </main>
+    <footer>
+        <p>&copy; 2025 My Prothfolio. All Right Reseved</p>
+    </footer>
+  </body>
+</html>
